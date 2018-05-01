@@ -19,7 +19,10 @@ Test exercise. Service for obtaining data
 ```
 ## USING
 
-Open in your browser a link http://localhost:5000/api/1.0/rss?url=&lt;url&gt;&amp;count&equals;&lt;count&gt;  
+Open in your browser a link
+```
+http://localhost:5000/api/1.0/rss?url=<url>&count=<count>
+```
 Where
 * &lt;url&gt; -- Mandatory argument. A whole address of RSS resource, for example https://habr.com/rss/best/
 * &lt;count&gt; -- Optional argument. A count of records that you want to get. By default, unlimited
