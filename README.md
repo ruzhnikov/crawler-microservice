@@ -1,6 +1,6 @@
 # NAME
 
-Exness crowler microservice
+Exness crawler microservice
 
 ## DESCRIPTION
 
