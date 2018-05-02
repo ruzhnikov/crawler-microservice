@@ -1,6 +1,6 @@
 # NAME
 
-Exness crawler microservice
+Crawler microservice
 
 ## DESCRIPTION
 
@@ -12,7 +12,7 @@ Test exercise. Service for obtaining data
     virtualenv --python=python3 env
     source ./env/bin/activate
     pip install Flask
-    cd <path of exness-crawler>
+    cd <path of resources_crawler>
     python setup.py install
     cd <path of this app>
     python app.py

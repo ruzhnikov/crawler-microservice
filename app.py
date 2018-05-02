@@ -4,8 +4,8 @@
 
 import json
 import flask
-from exness.crawler import Crawler
-from exness.rss import RssLoad
+from resources_crawler.crawler import Crawler
+from resources_crawler.rss import RssLoad
 
 
 ITEM_MANDATORY_FIELDS = ("title", "link", "published", "description")
